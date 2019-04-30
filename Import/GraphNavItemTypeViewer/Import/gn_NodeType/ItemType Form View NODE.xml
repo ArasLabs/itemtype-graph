@@ -1,0 +1,20 @@
+﻿<AML>
+ <Item type="gn_NodeType" id="A87F814F185A4BD091842089EE121D7D" action="add">
+  <itemtype_id keyed_name="Form" type="ItemType" name="Form">47573682FB7549F59ADECD4BFE04F1DE</itemtype_id>
+  <name>ItemType Form View NODE</name>
+  <Relationships>
+   <Item type="gn_NodeTypeProperty" id="951B3379E5F847148FECF92DCF1C3036" action="add">
+    <name>type</name>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="ItemType Form View NODE" type="gn_NodeType">A87F814F185A4BD091842089EE121D7D</source_id>
+    <value_template>{@type}</value_template>
+   </Item>
+   <Item type="gn_NodeTypeProperty" id="5C7C5810CC5542C4A74CB7CF5E4DEC24" action="add">
+    <name>name</name>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="ItemType Form View NODE" type="gn_NodeType">A87F814F185A4BD091842089EE121D7D</source_id>
+    <value_template>{name}</value_template>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

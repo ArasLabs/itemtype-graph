@@ -1,0 +1,37 @@
+﻿<AML>
+ <Item type="gn_ViewCard" id="4CF5F3BF43084FD28639384FD5EA6C93" action="add">
+  <template_definition>
+{
+	"container":{
+		"type":"grid",
+		"style":{
+			"width":180,
+			"height":40,
+			"color": "#F7F7F7",
+			"padding": 12,
+			"rows": [{"height": 16}],
+			"cols": [{"width": 22},{"width": 140}],
+			"border": {
+				"width": 1,
+				"color": "#555555",
+				"cornerRadius": 2,
+				"shadow": {
+					"horizontal": 1,
+					"vertical": 2,
+					"color": "#000000",
+					"opacity": 0.4
+				}
+			},
+			"cells": [
+				{
+					"content": "image",
+					"content_binding": "icon",
+					"col": 0,
+					"row": 0
+				}]
+		}
+	}
+}</template_definition>
+  <name>ItemType_Allowed Permission_View Card</name>
+ </Item>
+</AML>

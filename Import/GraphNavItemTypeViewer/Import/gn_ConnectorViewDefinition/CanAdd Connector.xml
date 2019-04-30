@@ -1,0 +1,12 @@
+﻿<AML>
+ <Item type="gn_ConnectorViewDefinition" id="1F3BAD59D38F477D9C5A0C097EE302FE" action="add">
+  <name>CanAdd Connector</name>
+  <Relationships>
+   <Item type="gn_ConnectorViewTemplate" id="81D9EA48EFB7435FA9B6AFFB4E1FD59C" action="add">
+    <related_id keyed_name="ItemType Relationship Generic Type Card" type="gn_ViewCard">3E51CAC6171842B5B4A484A4E33CE5A1</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="CanAdd Connector" type="gn_ConnectorViewDefinition">1F3BAD59D38F477D9C5A0C097EE302FE</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

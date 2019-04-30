@@ -1,0 +1,37 @@
+﻿<AML>
+ <Item type="gn_ViewCard" id="09562B7F612E44E7A0D44E388EAE7A13" action="add">
+  <template_definition>
+{
+	"container":{
+		"type":"grid",
+		"style":{
+			"width":180,
+			"height":40,
+			"color": "#F7F7F7",
+			"padding": 12,
+			"rows": [{"height": 16}],
+			"cols": [{"width": 22},{"width": 140}],
+			"border": {
+				"width": 1,
+				"color": "#555555",
+				"cornerRadius": 2,
+				"shadow": {
+					"horizontal": 1,
+					"vertical": 2,
+					"color": "#000000",
+					"opacity": 0.4
+				}
+			},
+			"cells": [
+				{
+					"content": "image",
+					"content_binding": "icon",
+					"col": 0,
+					"row": 0
+				}]
+		}
+	}
+}</template_definition>
+  <name>ItemType Allowed Workflow_View Card</name>
+ </Item>
+</AML>

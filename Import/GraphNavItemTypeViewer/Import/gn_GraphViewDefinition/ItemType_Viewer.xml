@@ -1,0 +1,222 @@
+﻿<AML>
+ <Item type="gn_GraphViewDefinition" id="8EE52EFA3E47411E875E4047B7D87A31" action="add">
+  <query_definition_id keyed_name="ItemType Graph Query" type="qry_QueryDefinition">7B1A120AB86B407497FA680219E6472F</query_definition_id>
+  <name>ItemType_Viewer</name>
+  <Relationships>
+   <Item type="gn_GraphViewConnector" id="20F2BFD059184D70B175B61F1696562F" action="add">
+    <connector_type_id keyed_name="ItemType_Workflow Map_View CONNECTOR" type="gn_ConnectorType">8F7C56F77D0942FA85593AED75A19177</connector_type_id>
+    <end_query_item_id keyed_name="Allowed Workflow" type="qry_QueryItem">E9AD785583774CAA967ED4FABDE4C033</end_query_item_id>
+    <int_query_reference_path>93C09BC273E54D5FA77975EF39D7FF2C/629983FBA17E4C9ABFFDAFEF6C0F12D0</int_query_reference_path>
+    <sort_order>128</sort_order>
+    <source_endpoint_id keyed_name="C16739F29691450384C83B465F2EF0D7" type="gn_GraphViewNode">C16739F29691450384C83B465F2EF0D7</source_endpoint_id>
+    <source_id keyed_name="ItemType_Viewer" type="gn_GraphViewDefinition">8EE52EFA3E47411E875E4047B7D87A31</source_id>
+    <start_query_item_id keyed_name="Allowed Workflow" type="qry_QueryItem">E9AD785583774CAA967ED4FABDE4C033</start_query_item_id>
+    <target_endpoint_id keyed_name="98F3625CCA834DA5AFEC909DB2F12CC2" type="gn_GraphViewNode">98F3625CCA834DA5AFEC909DB2F12CC2</target_endpoint_id>
+   </Item>
+   <Item type="gn_GraphViewConnector" id="310788D0842346BA82818A5FFB7B55F6" action="add">
+    <connector_type_id keyed_name="ItemType_Life Cycle Map_View CONNECTOR" type="gn_ConnectorType">F3494964632445E38C432F12E96CAB60</connector_type_id>
+    <end_query_item_id keyed_name="ItemType Life Cycle" type="qry_QueryItem">7079CDB0C8F54C69A1AB5706026DB748</end_query_item_id>
+    <int_query_reference_path>CD579FAACBE84D8788C6517C42A0563C/A4878A2202AA431C91E0EF93D56518CE</int_query_reference_path>
+    <sort_order>256</sort_order>
+    <source_endpoint_id keyed_name="C16739F29691450384C83B465F2EF0D7" type="gn_GraphViewNode">C16739F29691450384C83B465F2EF0D7</source_endpoint_id>
+    <source_id keyed_name="ItemType_Viewer" type="gn_GraphViewDefinition">8EE52EFA3E47411E875E4047B7D87A31</source_id>
+    <start_query_item_id keyed_name="ItemType Life Cycle" type="qry_QueryItem">7079CDB0C8F54C69A1AB5706026DB748</start_query_item_id>
+    <target_endpoint_id keyed_name="7A13A56EE9EE4392B8DFD4E2E4677D73" type="gn_GraphViewNode">7A13A56EE9EE4392B8DFD4E2E4677D73</target_endpoint_id>
+   </Item>
+   <Item type="gn_GraphViewConnector" id="2985F7DE4F814C94A0E7655C73D576B9" action="add">
+    <connector_type_id keyed_name="ItemType_Permission_View CONNECTOR" type="gn_ConnectorType">1D6F1A66A65E4E228E595174B59EBB70</connector_type_id>
+    <end_query_item_id keyed_name="Allowed Permission" type="qry_QueryItem">BE39CFB3C3894D6A9521784CFA1D0114</end_query_item_id>
+    <int_query_reference_path>F228ED5B22154AB5B6D69DA5BE37FB4F/7F53BB52D853491A85ED1004E04E9367</int_query_reference_path>
+    <sort_order>384</sort_order>
+    <source_endpoint_id keyed_name="C16739F29691450384C83B465F2EF0D7" type="gn_GraphViewNode">C16739F29691450384C83B465F2EF0D7</source_endpoint_id>
+    <source_id keyed_name="ItemType_Viewer" type="gn_GraphViewDefinition">8EE52EFA3E47411E875E4047B7D87A31</source_id>
+    <start_query_item_id keyed_name="Allowed Permission" type="qry_QueryItem">BE39CFB3C3894D6A9521784CFA1D0114</start_query_item_id>
+    <target_endpoint_id keyed_name="8D2FDBD6DD0842538906B1D3906FF6AE" type="gn_GraphViewNode">8D2FDBD6DD0842538906B1D3906FF6AE</target_endpoint_id>
+   </Item>
+   <Item type="gn_GraphViewConnector" id="8F6E7D1A4DE143E9945D7DA22F8B748F" action="add">
+    <connector_type_id keyed_name="ItemType_Action View CONNECTOR" type="gn_ConnectorType">1F38EBCA0C0C43F2956FE82DC993BFB3</connector_type_id>
+    <end_query_item_id keyed_name="Item Action" type="qry_QueryItem">5BC5B98380354711A28D226AD391DE66</end_query_item_id>
+    <int_query_reference_path>68D9CE64C56F473CBA9FDA88487872F9/88698979D59A43B7833D34CA88EDA78F</int_query_reference_path>
+    <sort_order>512</sort_order>
+    <source_endpoint_id keyed_name="C16739F29691450384C83B465F2EF0D7" type="gn_GraphViewNode">C16739F29691450384C83B465F2EF0D7</source_endpoint_id>
+    <source_id keyed_name="ItemType_Viewer" type="gn_GraphViewDefinition">8EE52EFA3E47411E875E4047B7D87A31</source_id>
+    <start_query_item_id keyed_name="Item Action" type="qry_QueryItem">5BC5B98380354711A28D226AD391DE66</start_query_item_id>
+    <target_endpoint_id keyed_name="32DBFDFFE9BA4A24BA5C4741D52FB7F0" type="gn_GraphViewNode">32DBFDFFE9BA4A24BA5C4741D52FB7F0</target_endpoint_id>
+   </Item>
+   <Item type="gn_GraphViewConnector" id="277493527E404428A1CE615CF9EAA7E3" action="add">
+    <connector_type_id keyed_name="ItemType_Identity_CanAdd_View CONNECTOR" type="gn_ConnectorType">619B88D61DEE43C19F78553DCA2F254F</connector_type_id>
+    <connector_view_id keyed_name="CanAdd Connector" type="gn_ConnectorViewDefinition">1F3BAD59D38F477D9C5A0C097EE302FE</connector_view_id>
+    <end_query_item_id keyed_name="Can Add" type="qry_QueryItem">32081DE6967C4FEFA7E4871C70C9E152</end_query_item_id>
+    <int_query_reference_path>A0CA83D7567E44F189DAA7A03E5190E4/41D3C2D0DAEF477F94654B43F5D54484</int_query_reference_path>
+    <sort_order>640</sort_order>
+    <source_endpoint_id keyed_name="C16739F29691450384C83B465F2EF0D7" type="gn_GraphViewNode">C16739F29691450384C83B465F2EF0D7</source_endpoint_id>
+    <source_id keyed_name="ItemType_Viewer" type="gn_GraphViewDefinition">8EE52EFA3E47411E875E4047B7D87A31</source_id>
+    <start_query_item_id keyed_name="Can Add" type="qry_QueryItem">32081DE6967C4FEFA7E4871C70C9E152</start_query_item_id>
+    <target_endpoint_id keyed_name="2D1AA5B3DA58415EB3BAAD7AF736E925" type="gn_GraphViewNode">2D1AA5B3DA58415EB3BAAD7AF736E925</target_endpoint_id>
+   </Item>
+   <Item type="gn_GraphViewConnector" id="BADB5A1FF19A40BCAA3682D2AFCC6E45" action="add">
+    <connector_type_id keyed_name="ItemType_RelatedItemType_View CONNECTOR" type="gn_ConnectorType">5C9038F23C424100AC1B80F3E7549238</connector_type_id>
+    <connector_view_id keyed_name="Relationship Connector" type="gn_ConnectorViewDefinition">93CF42593C724C8B98CD1B1390BF6BCC</connector_view_id>
+    <end_query_item_id keyed_name="RelationshipType" type="qry_QueryItem">AA899CA2C482457283116E2016F2023B</end_query_item_id>
+    <int_query_reference_path>E87E8E5A173B45ABB29EEEE31A74465C/D70417D04370451EBF3A41581739EADA</int_query_reference_path>
+    <sort_order>768</sort_order>
+    <source_endpoint_id keyed_name="C16739F29691450384C83B465F2EF0D7" type="gn_GraphViewNode">C16739F29691450384C83B465F2EF0D7</source_endpoint_id>
+    <source_id keyed_name="ItemType_Viewer" type="gn_GraphViewDefinition">8EE52EFA3E47411E875E4047B7D87A31</source_id>
+    <start_query_item_id keyed_name="RelationshipType" type="qry_QueryItem">AA899CA2C482457283116E2016F2023B</start_query_item_id>
+    <target_endpoint_id keyed_name="3B7C1E6059CF482FAD7795538B24D458" type="gn_GraphViewNode">3B7C1E6059CF482FAD7795538B24D458</target_endpoint_id>
+   </Item>
+   <Item type="gn_GraphViewConnector" id="AA8CEF98CA9745D08ACEA447D47E76EC" action="add">
+    <connector_type_id keyed_name="ItemType Report View CONNECTOR" type="gn_ConnectorType">99F60966E7FA4E2E87A37770B197D3B5</connector_type_id>
+    <end_query_item_id keyed_name="Item Report" type="qry_QueryItem">8845ED7D204747A79DE9BDB8CD82CE01</end_query_item_id>
+    <sort_order>896</sort_order>
+    <source_endpoint_id keyed_name="C16739F29691450384C83B465F2EF0D7" type="gn_GraphViewNode">C16739F29691450384C83B465F2EF0D7</source_endpoint_id>
+    <source_id keyed_name="ItemType_Viewer" type="gn_GraphViewDefinition">8EE52EFA3E47411E875E4047B7D87A31</source_id>
+    <start_query_item_id keyed_name="Item Report" type="qry_QueryItem">8845ED7D204747A79DE9BDB8CD82CE01</start_query_item_id>
+    <target_endpoint_id keyed_name="030AFE22BD054A0E9174E952123740D2" type="gn_GraphViewNode">030AFE22BD054A0E9174E952123740D2</target_endpoint_id>
+   </Item>
+   <Item type="gn_GraphViewConnector" id="960B7B48F387424FA93C0486804B42DD" action="add">
+    <connector_type_id keyed_name="ItemType_Identity_TOCAccess_View CONNECTOR" type="gn_ConnectorType">23A1052691584ADEAC2C6DA65AED53ED</connector_type_id>
+    <connector_view_id keyed_name="TOCAccess Connector" type="gn_ConnectorViewDefinition">514FF6F8669140E4BD5CD386BBC634C2</connector_view_id>
+    <end_query_item_id keyed_name="TOC Access" type="qry_QueryItem">0E58A5D4C6E3419BBBD42A9CD5DCC92F</end_query_item_id>
+    <sort_order>1024</sort_order>
+    <source_endpoint_id keyed_name="C16739F29691450384C83B465F2EF0D7" type="gn_GraphViewNode">C16739F29691450384C83B465F2EF0D7</source_endpoint_id>
+    <source_id keyed_name="ItemType_Viewer" type="gn_GraphViewDefinition">8EE52EFA3E47411E875E4047B7D87A31</source_id>
+    <start_query_item_id keyed_name="TOC Access" type="qry_QueryItem">0E58A5D4C6E3419BBBD42A9CD5DCC92F</start_query_item_id>
+    <target_endpoint_id keyed_name="C908762689E248F8AA0DA346EC116638" type="gn_GraphViewNode">C908762689E248F8AA0DA346EC116638</target_endpoint_id>
+   </Item>
+   <Item type="gn_GraphViewConnector" id="BFE946B67096444ABBE5B3DAF0BA028E" action="add">
+    <connector_type_id keyed_name="ItemType Form View CONNECTOR" type="gn_ConnectorType">99D5286DF25C4D34AEDBDCEC7B411C59</connector_type_id>
+    <end_query_item_id keyed_name="View" type="qry_QueryItem">CAE877C2D5C54341A664F4C456683135</end_query_item_id>
+    <sort_order>1152</sort_order>
+    <source_endpoint_id keyed_name="C16739F29691450384C83B465F2EF0D7" type="gn_GraphViewNode">C16739F29691450384C83B465F2EF0D7</source_endpoint_id>
+    <source_id keyed_name="ItemType_Viewer" type="gn_GraphViewDefinition">8EE52EFA3E47411E875E4047B7D87A31</source_id>
+    <start_query_item_id keyed_name="View" type="qry_QueryItem">CAE877C2D5C54341A664F4C456683135</start_query_item_id>
+    <target_endpoint_id keyed_name="DB5EB2D40947486EA396F38E66213A38" type="gn_GraphViewNode">DB5EB2D40947486EA396F38E66213A38</target_endpoint_id>
+   </Item>
+   <Item type="gn_GraphViewItemType" id="AF9EFC7EE99B4598ADBE1E8FDD9CB080" action="add">
+    <entry_graph_view_node_id keyed_name="C16739F29691450384C83B465F2EF0D7" type="gn_GraphViewNode">C16739F29691450384C83B465F2EF0D7</entry_graph_view_node_id>
+    <related_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="ItemType_Viewer" type="gn_GraphViewDefinition">8EE52EFA3E47411E875E4047B7D87A31</source_id>
+   </Item>
+   <Item type="gn_GraphViewNode" id="C16739F29691450384C83B465F2EF0D7" action="add">
+    <end_query_item_id keyed_name="ItemType" type="qry_QueryItem">5BCA2FC9E2B1463AA108DFD505B168F6</end_query_item_id>
+    <node_type_id keyed_name="ItemType_View NODE" type="gn_NodeType">DC15171119644F3E80568207552A823A</node_type_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="ItemType_Viewer" type="gn_GraphViewDefinition">8EE52EFA3E47411E875E4047B7D87A31</source_id>
+    <start_query_item_id keyed_name="ItemType" type="qry_QueryItem">5BCA2FC9E2B1463AA108DFD505B168F6</start_query_item_id>
+   </Item>
+   <Item type="gn_GraphViewNode" id="98F3625CCA834DA5AFEC909DB2F12CC2" action="add">
+    <end_query_item_id keyed_name="Workflow Map" type="qry_QueryItem">FFAFC4E9FAB347A68D9239CC37748B81</end_query_item_id>
+    <node_type_id keyed_name="ItemType_Workflow Map_View NODE" type="gn_NodeType">E22F3E2E445E4824B8FCA327FF78C857</node_type_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="ItemType_Viewer" type="gn_GraphViewDefinition">8EE52EFA3E47411E875E4047B7D87A31</source_id>
+    <start_query_item_id keyed_name="Workflow Map" type="qry_QueryItem">FFAFC4E9FAB347A68D9239CC37748B81</start_query_item_id>
+   </Item>
+   <Item type="gn_GraphViewNode" id="7A13A56EE9EE4392B8DFD4E2E4677D73" action="add">
+    <end_query_item_id keyed_name="Life Cycle Map" type="qry_QueryItem">D8C96387A435456CACEE7C54D0DAC3A2</end_query_item_id>
+    <node_type_id keyed_name="ItemType Life Cycle Map_View NODE" type="gn_NodeType">12E53FF5B1224F1AADA26D11333096F4</node_type_id>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="ItemType_Viewer" type="gn_GraphViewDefinition">8EE52EFA3E47411E875E4047B7D87A31</source_id>
+    <start_query_item_id keyed_name="Life Cycle Map" type="qry_QueryItem">D8C96387A435456CACEE7C54D0DAC3A2</start_query_item_id>
+   </Item>
+   <Item type="gn_GraphViewNode" id="8D2FDBD6DD0842538906B1D3906FF6AE" action="add">
+    <end_query_item_id keyed_name="Permission" type="qry_QueryItem">F073A3CCCE0E4602B1C2F243C539C4CC</end_query_item_id>
+    <node_type_id keyed_name="ItemType_Permission_View NODE" type="gn_NodeType">9738F0182DF248DCBC2EC3DA85328138</node_type_id>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="ItemType_Viewer" type="gn_GraphViewDefinition">8EE52EFA3E47411E875E4047B7D87A31</source_id>
+    <start_query_item_id keyed_name="Permission" type="qry_QueryItem">F073A3CCCE0E4602B1C2F243C539C4CC</start_query_item_id>
+   </Item>
+   <Item type="gn_GraphViewNode" id="32DBFDFFE9BA4A24BA5C4741D52FB7F0" action="add">
+    <end_query_item_id keyed_name="Action" type="qry_QueryItem">86FECA4FA7EF4A88A2D03FC9AABD0053</end_query_item_id>
+    <node_type_id keyed_name="ItemType Action_View NODE" type="gn_NodeType">3E095057497A474998E338CD9509B547</node_type_id>
+    <sort_order>640</sort_order>
+    <source_id keyed_name="ItemType_Viewer" type="gn_GraphViewDefinition">8EE52EFA3E47411E875E4047B7D87A31</source_id>
+    <start_query_item_id keyed_name="Action" type="qry_QueryItem">86FECA4FA7EF4A88A2D03FC9AABD0053</start_query_item_id>
+   </Item>
+   <Item type="gn_GraphViewNode" id="2D1AA5B3DA58415EB3BAAD7AF736E925" action="add">
+    <end_query_item_id keyed_name="Identity" type="qry_QueryItem">98D41D430EB5487D98EF725E0116D452</end_query_item_id>
+    <node_type_id keyed_name="ItemType Can Add Identity View NODE" type="gn_NodeType">EFA22E49A8C841148852AB99899E7390</node_type_id>
+    <sort_order>768</sort_order>
+    <source_id keyed_name="ItemType_Viewer" type="gn_GraphViewDefinition">8EE52EFA3E47411E875E4047B7D87A31</source_id>
+    <start_query_item_id keyed_name="Identity" type="qry_QueryItem">98D41D430EB5487D98EF725E0116D452</start_query_item_id>
+   </Item>
+   <Item type="gn_GraphViewNode" id="3B7C1E6059CF482FAD7795538B24D458" action="add">
+    <end_query_item_id keyed_name="RelatedItemType" type="qry_QueryItem">3E342DB9459D496987E5175FBD18028C</end_query_item_id>
+    <node_type_id keyed_name="ItemType RelatedItemType_View NODE" type="gn_NodeType">3C8A716008BB4AC6BDFA85F3DBD5B246</node_type_id>
+    <sort_order>896</sort_order>
+    <source_id keyed_name="ItemType_Viewer" type="gn_GraphViewDefinition">8EE52EFA3E47411E875E4047B7D87A31</source_id>
+    <start_query_item_id keyed_name="RelatedItemType" type="qry_QueryItem">3E342DB9459D496987E5175FBD18028C</start_query_item_id>
+   </Item>
+   <Item type="gn_GraphViewNode" id="030AFE22BD054A0E9174E952123740D2" action="add">
+    <end_query_item_id keyed_name="Report" type="qry_QueryItem">191203CB205942429D445ABCEECDB5EE</end_query_item_id>
+    <node_type_id keyed_name="ItemType_Report View NODE" type="gn_NodeType">66796A0539A7403BA3BC7BD6F34B662A</node_type_id>
+    <sort_order>1024</sort_order>
+    <source_id keyed_name="ItemType_Viewer" type="gn_GraphViewDefinition">8EE52EFA3E47411E875E4047B7D87A31</source_id>
+    <start_query_item_id keyed_name="Report" type="qry_QueryItem">191203CB205942429D445ABCEECDB5EE</start_query_item_id>
+   </Item>
+   <Item type="gn_GraphViewNode" id="C908762689E248F8AA0DA346EC116638" action="add">
+    <end_query_item_id keyed_name="Identity_TOCAccess" type="qry_QueryItem">EC380A2B750F448A8762252CFADFEFCA</end_query_item_id>
+    <node_type_id keyed_name="ItemType_TOC Access Identity View NODE" type="gn_NodeType">F787AC76F6A349CD9F910BB791F20477</node_type_id>
+    <sort_order>1152</sort_order>
+    <source_id keyed_name="ItemType_Viewer" type="gn_GraphViewDefinition">8EE52EFA3E47411E875E4047B7D87A31</source_id>
+    <start_query_item_id keyed_name="Identity_TOCAccess" type="qry_QueryItem">EC380A2B750F448A8762252CFADFEFCA</start_query_item_id>
+   </Item>
+   <Item type="gn_GraphViewNode" id="DB5EB2D40947486EA396F38E66213A38" action="add">
+    <end_query_item_id keyed_name="Form" type="qry_QueryItem">6FA4193C25BC4390B5082AC1A9767B23</end_query_item_id>
+    <node_type_id keyed_name="ItemType Form View NODE" type="gn_NodeType">A87F814F185A4BD091842089EE121D7D</node_type_id>
+    <sort_order>1280</sort_order>
+    <source_id keyed_name="ItemType_Viewer" type="gn_GraphViewDefinition">8EE52EFA3E47411E875E4047B7D87A31</source_id>
+    <start_query_item_id keyed_name="Form" type="qry_QueryItem">6FA4193C25BC4390B5082AC1A9767B23</start_query_item_id>
+   </Item>
+   <Item type="gn_GVDefaultCard" id="41A2B437549645AABF3D00C2FF5ED518" action="add">
+    <itemtype_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</itemtype_id>
+    <related_id keyed_name="ItemType_View Card" type="gn_ViewCard">BC6A58FB73AB48C3A97A6ABD62B18724</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="ItemType_Viewer" type="gn_GraphViewDefinition">8EE52EFA3E47411E875E4047B7D87A31</source_id>
+   </Item>
+   <Item type="gn_GVDefaultCard" id="E6B28EF28B234B66A7276CAD07A0B872" action="add">
+    <itemtype_id keyed_name="Workflow Map" type="ItemType" name="Workflow Map">B19D349CC6FC44BC97D50A6D70AE79CB</itemtype_id>
+    <related_id keyed_name="ItemType Workflow Map_View Card" type="gn_ViewCard">C5F9B65D592A40EAA0AD9FF35B7292A5</related_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="ItemType_Viewer" type="gn_GraphViewDefinition">8EE52EFA3E47411E875E4047B7D87A31</source_id>
+   </Item>
+   <Item type="gn_GVDefaultCard" id="9E0999FAE35C4D5EA30CBC1466BF277D" action="add">
+    <itemtype_id keyed_name="Life Cycle Map" type="ItemType" name="Life Cycle Map">AC32527D85604A4D9FC9107C516AEF47</itemtype_id>
+    <related_id keyed_name="ItemType Life Cycle Map_View Card" type="gn_ViewCard">02C330D5FFE94429ABCB55021E2BD783</related_id>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="ItemType_Viewer" type="gn_GraphViewDefinition">8EE52EFA3E47411E875E4047B7D87A31</source_id>
+   </Item>
+   <Item type="gn_GVDefaultCard" id="69CF4C546B574A20B014BFB333A77490" action="add">
+    <itemtype_id keyed_name="Permission" type="ItemType" name="Permission">C6A89FDE1294451497801DF78341B473</itemtype_id>
+    <related_id keyed_name="ItemType_Permission View Card" type="gn_ViewCard">FE3FA887A5444389822F6CEC61D29872</related_id>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="ItemType_Viewer" type="gn_GraphViewDefinition">8EE52EFA3E47411E875E4047B7D87A31</source_id>
+   </Item>
+   <Item type="gn_GVDefaultCard" id="4A5A03B330A04AAAA0994EF9A74C3433" action="add">
+    <itemtype_id keyed_name="Action" type="ItemType" name="Action">483228BE6B9A4C0E99ACD55FDF328DEC</itemtype_id>
+    <related_id keyed_name="ItemType Action_View Card" type="gn_ViewCard">1DA47D05223C4EF9A57EC47E852E4BF4</related_id>
+    <sort_order>640</sort_order>
+    <source_id keyed_name="ItemType_Viewer" type="gn_GraphViewDefinition">8EE52EFA3E47411E875E4047B7D87A31</source_id>
+   </Item>
+   <Item type="gn_GVDefaultCard" id="1CF442ACC19649A280562600E895F6B5" action="add">
+    <itemtype_id keyed_name="Identity" type="ItemType" name="Identity">E582AB17663F4EF28460015B2BE9E094</itemtype_id>
+    <related_id keyed_name="ItemType_Identity View Card" type="gn_ViewCard">E4C9D3FD96C84FBF9DA9FF4AE0AB8FA3</related_id>
+    <sort_order>768</sort_order>
+    <source_id keyed_name="ItemType_Viewer" type="gn_GraphViewDefinition">8EE52EFA3E47411E875E4047B7D87A31</source_id>
+   </Item>
+   <Item type="gn_GVDefaultCard" id="7DF57E7FF1064CD6A261D599598329D8" action="add">
+    <itemtype_id keyed_name="Report" type="ItemType" name="Report">F0834BBA6FB64394B78DF5BB725532DD</itemtype_id>
+    <related_id keyed_name="ItemType Report_View Card" type="gn_ViewCard">5790B645BE0E4AC1982EEB84F564F541</related_id>
+    <sort_order>896</sort_order>
+    <source_id keyed_name="ItemType_Viewer" type="gn_GraphViewDefinition">8EE52EFA3E47411E875E4047B7D87A31</source_id>
+   </Item>
+   <Item type="gn_GVDefaultCard" id="3FE8C22A2B174016905ED9C30A91CA98" action="add">
+    <itemtype_id keyed_name="Form" type="ItemType" name="Form">47573682FB7549F59ADECD4BFE04F1DE</itemtype_id>
+    <related_id keyed_name="ItemType Form View Card" type="gn_ViewCard">ACA3FC47CD9D45CE82BD5CF2786E075E</related_id>
+    <sort_order>1024</sort_order>
+    <source_id keyed_name="ItemType_Viewer" type="gn_GraphViewDefinition">8EE52EFA3E47411E875E4047B7D87A31</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

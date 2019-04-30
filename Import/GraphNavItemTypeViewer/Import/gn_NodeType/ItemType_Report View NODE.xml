@@ -1,0 +1,26 @@
+﻿<AML>
+ <Item type="gn_NodeType" id="66796A0539A7403BA3BC7BD6F34B662A" action="add">
+  <itemtype_id keyed_name="Report" type="ItemType" name="Report">F0834BBA6FB64394B78DF5BB725532DD</itemtype_id>
+  <name>ItemType_Report View NODE</name>
+  <Relationships>
+   <Item type="gn_NodeTypeProperty" id="9FAA1A4FAF144BE6BEDA29FC9ACC1336" action="add">
+    <name>type</name>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="ItemType_Report View NODE" type="gn_NodeType">66796A0539A7403BA3BC7BD6F34B662A</source_id>
+    <value_template>{@type}</value_template>
+   </Item>
+   <Item type="gn_NodeTypeProperty" id="E48C0BF67BDF4731B2FB6CE1AE044053" action="add">
+    <name>icon</name>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="ItemType_Report View NODE" type="gn_NodeType">66796A0539A7403BA3BC7BD6F34B662A</source_id>
+    <value_template>{@icon}</value_template>
+   </Item>
+   <Item type="gn_NodeTypeProperty" id="05CD33BE7CF84514B5D151C93AAE2CB9" action="add">
+    <name>name</name>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="ItemType_Report View NODE" type="gn_NodeType">66796A0539A7403BA3BC7BD6F34B662A</source_id>
+    <value_template>{name}</value_template>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

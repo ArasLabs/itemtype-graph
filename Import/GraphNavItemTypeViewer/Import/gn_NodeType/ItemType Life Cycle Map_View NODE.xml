@@ -1,0 +1,26 @@
+﻿<AML>
+ <Item type="gn_NodeType" id="12E53FF5B1224F1AADA26D11333096F4" action="add">
+  <itemtype_id keyed_name="Life Cycle Map" type="ItemType" name="Life Cycle Map">AC32527D85604A4D9FC9107C516AEF47</itemtype_id>
+  <name>ItemType Life Cycle Map_View NODE</name>
+  <Relationships>
+   <Item type="gn_NodeTypeProperty" id="18D32DA830C24AD795AB04C333624A56" action="add">
+    <name>type</name>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="ItemType Life Cycle Map_View NODE" type="gn_NodeType">12E53FF5B1224F1AADA26D11333096F4</source_id>
+    <value_template>{@type}</value_template>
+   </Item>
+   <Item type="gn_NodeTypeProperty" id="DBF92596FC4B4B639F1CB14AB713C757" action="add">
+    <name>icon</name>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="ItemType Life Cycle Map_View NODE" type="gn_NodeType">12E53FF5B1224F1AADA26D11333096F4</source_id>
+    <value_template>{@icon}</value_template>
+   </Item>
+   <Item type="gn_NodeTypeProperty" id="64ADFC8EACDD4838A7C2CAD9AEB33C4C" action="add">
+    <name>name</name>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="ItemType Life Cycle Map_View NODE" type="gn_NodeType">12E53FF5B1224F1AADA26D11333096F4</source_id>
+    <value_template>{name}</value_template>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

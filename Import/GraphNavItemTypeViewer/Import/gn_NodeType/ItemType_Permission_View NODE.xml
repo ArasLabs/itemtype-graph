@@ -1,0 +1,26 @@
+﻿<AML>
+ <Item type="gn_NodeType" id="9738F0182DF248DCBC2EC3DA85328138" action="add">
+  <itemtype_id keyed_name="Permission" type="ItemType" name="Permission">C6A89FDE1294451497801DF78341B473</itemtype_id>
+  <name>ItemType_Permission_View NODE</name>
+  <Relationships>
+   <Item type="gn_NodeTypeProperty" id="089CC77D05C84048B18158A6184CACD9" action="add">
+    <name>type</name>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="ItemType_Permission_View NODE" type="gn_NodeType">9738F0182DF248DCBC2EC3DA85328138</source_id>
+    <value_template>{@type}</value_template>
+   </Item>
+   <Item type="gn_NodeTypeProperty" id="5361B46BB2D84714A8A3DC3823B88406" action="add">
+    <name>icon</name>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="ItemType_Permission_View NODE" type="gn_NodeType">9738F0182DF248DCBC2EC3DA85328138</source_id>
+    <value_template>{@icon}</value_template>
+   </Item>
+   <Item type="gn_NodeTypeProperty" id="4ECEC971FC404731813089C30CC6FAF2" action="add">
+    <name>name</name>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="ItemType_Permission_View NODE" type="gn_NodeType">9738F0182DF248DCBC2EC3DA85328138</source_id>
+    <value_template>{name}</value_template>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

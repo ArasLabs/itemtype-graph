@@ -1,0 +1,26 @@
+﻿<AML>
+ <Item type="gn_NodeType" id="F787AC76F6A349CD9F910BB791F20477" action="add">
+  <itemtype_id keyed_name="Identity" type="ItemType" name="Identity">E582AB17663F4EF28460015B2BE9E094</itemtype_id>
+  <name>ItemType_TOC Access Identity View NODE</name>
+  <Relationships>
+   <Item type="gn_NodeTypeProperty" id="38757DCFD2CE439BBCB5E56F987C65B5" action="add">
+    <name>type</name>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="ItemType_TOC Access Identity View NODE" type="gn_NodeType">F787AC76F6A349CD9F910BB791F20477</source_id>
+    <value_template>{@type}</value_template>
+   </Item>
+   <Item type="gn_NodeTypeProperty" id="82227FA4ACF04173991C472E1C8A55F5" action="add">
+    <name>icon</name>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="ItemType_TOC Access Identity View NODE" type="gn_NodeType">F787AC76F6A349CD9F910BB791F20477</source_id>
+    <value_template>{@icon}</value_template>
+   </Item>
+   <Item type="gn_NodeTypeProperty" id="EB406A7BFDA145A48DA7A4B808461F20" action="add">
+    <name>name</name>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="ItemType_TOC Access Identity View NODE" type="gn_NodeType">F787AC76F6A349CD9F910BB791F20477</source_id>
+    <value_template>{name}</value_template>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

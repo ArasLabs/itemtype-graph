@@ -1,0 +1,13 @@
+﻿<AML>
+ <Item type="gn_ConnectorType" id="23A1052691584ADEAC2C6DA65AED53ED" action="add">
+  <name>ItemType_Identity_TOCAccess_View CONNECTOR</name>
+  <Relationships>
+   <Item type="gn_ConnectorTypeProperty" id="1A34A1A91C91404E989928C88C485347" action="add">
+    <name>type</name>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="ItemType_Identity_TOCAccess_View CONNECTOR" type="gn_ConnectorType">23A1052691584ADEAC2C6DA65AED53ED</source_id>
+    <value_template>{@type}</value_template>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

@@ -1,0 +1,26 @@
+﻿<AML>
+ <Item type="gn_NodeType" id="EFA22E49A8C841148852AB99899E7390" action="add">
+  <itemtype_id keyed_name="Identity" type="ItemType" name="Identity">E582AB17663F4EF28460015B2BE9E094</itemtype_id>
+  <name>ItemType Can Add Identity View NODE</name>
+  <Relationships>
+   <Item type="gn_NodeTypeProperty" id="3790F40396FF4C41B147D7E67F8C0FE3" action="add">
+    <name>type</name>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="ItemType Can Add Identity View NODE" type="gn_NodeType">EFA22E49A8C841148852AB99899E7390</source_id>
+    <value_template>{@type}</value_template>
+   </Item>
+   <Item type="gn_NodeTypeProperty" id="8A21DB5687C74F2787692D4FCF2274FA" action="add">
+    <name>icon</name>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="ItemType Can Add Identity View NODE" type="gn_NodeType">EFA22E49A8C841148852AB99899E7390</source_id>
+    <value_template>{@icon}</value_template>
+   </Item>
+   <Item type="gn_NodeTypeProperty" id="83773A7824B94B6D8389BE77A3F01563" action="add">
+    <name>name</name>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="ItemType Can Add Identity View NODE" type="gn_NodeType">EFA22E49A8C841148852AB99899E7390</source_id>
+    <value_template>{name}</value_template>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

@@ -1,0 +1,19 @@
+﻿<AML>
+ <Item type="gn_ConnectorType" id="5C9038F23C424100AC1B80F3E7549238" action="add">
+  <name>ItemType_RelatedItemType_View CONNECTOR</name>
+  <Relationships>
+   <Item type="gn_ConnectorTypeProperty" id="7F0A3A23CE794E58A5D0DBA81AA186FF" action="add">
+    <name>name</name>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="ItemType_RelatedItemType_View CONNECTOR" type="gn_ConnectorType">5C9038F23C424100AC1B80F3E7549238</source_id>
+    <value_template>{name}</value_template>
+   </Item>
+   <Item type="gn_ConnectorTypeProperty" id="8C853C62E9CF48EBA397089A042CA002" action="add">
+    <name>type</name>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="ItemType_RelatedItemType_View CONNECTOR" type="gn_ConnectorType">5C9038F23C424100AC1B80F3E7549238</source_id>
+    <value_template>{@type}</value_template>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

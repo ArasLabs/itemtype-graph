@@ -1,0 +1,26 @@
+﻿<AML>
+ <Item type="gn_NodeType" id="E22F3E2E445E4824B8FCA327FF78C857" action="add">
+  <itemtype_id keyed_name="Workflow Map" type="ItemType" name="Workflow Map">B19D349CC6FC44BC97D50A6D70AE79CB</itemtype_id>
+  <name>ItemType_Workflow Map_View NODE</name>
+  <Relationships>
+   <Item type="gn_NodeTypeProperty" id="B7DDC2E9FA1F4C82BAE3A24D921BFC47" action="add">
+    <name>type</name>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="ItemType_Workflow Map_View NODE" type="gn_NodeType">E22F3E2E445E4824B8FCA327FF78C857</source_id>
+    <value_template>{@type}</value_template>
+   </Item>
+   <Item type="gn_NodeTypeProperty" id="5DD75209779E403985D0248F16E9C53D" action="add">
+    <name>icon</name>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="ItemType_Workflow Map_View NODE" type="gn_NodeType">E22F3E2E445E4824B8FCA327FF78C857</source_id>
+    <value_template>{@icon}</value_template>
+   </Item>
+   <Item type="gn_NodeTypeProperty" id="4D2C344C23FB437A8F4588A303C49388" action="add">
+    <name>name</name>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="ItemType_Workflow Map_View NODE" type="gn_NodeType">E22F3E2E445E4824B8FCA327FF78C857</source_id>
+    <value_template>{name}</value_template>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

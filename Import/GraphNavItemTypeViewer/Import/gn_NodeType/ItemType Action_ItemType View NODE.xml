@@ -1,0 +1,20 @@
+﻿<AML>
+ <Item type="gn_NodeType" id="6A3A67D99B30446AB4E7D8AB0685928E" action="add">
+  <itemtype_id keyed_name="Item Action" type="ItemType" name="Item Action">6C280692633D4498BD9CFEA7989138AB</itemtype_id>
+  <name>ItemType Action_ItemType View NODE</name>
+  <Relationships>
+   <Item type="gn_NodeTypeProperty" id="91717AC1C8964B67A40268B9E568B745" action="add">
+    <name>type</name>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="ItemType Action_ItemType View NODE" type="gn_NodeType">6A3A67D99B30446AB4E7D8AB0685928E</source_id>
+    <value_template>{@type}</value_template>
+   </Item>
+   <Item type="gn_NodeTypeProperty" id="A093012D153A45A499E891445DB19145" action="add">
+    <name>icon</name>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="ItemType Action_ItemType View NODE" type="gn_NodeType">6A3A67D99B30446AB4E7D8AB0685928E</source_id>
+    <value_template>{@icon}</value_template>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

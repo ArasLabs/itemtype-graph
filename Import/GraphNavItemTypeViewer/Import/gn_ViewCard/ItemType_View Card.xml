@@ -1,0 +1,65 @@
+﻿<AML>
+ <Item type="gn_ViewCard" id="BC6A58FB73AB48C3A97A6ABD62B18724" action="add">
+  <template_definition>
+{
+	"container":{
+		"type":"grid",
+		"style":{
+			"width":180,
+			"height":56,
+			"color": "#FFFFFF",
+			"padding": 12,
+			"rows": [{"height": 16},{"height": 16}],
+			"cols": [{"width": 22},{"width": 140}],
+			"border": {
+				"width": 1,
+				"color": "#555555",
+				"cornerRadius": 2,
+				"shadow": {
+					"horizontal": 1,
+					"vertical": 2,
+					"color": "#000000",
+					"opacity": 0.4
+				}
+			},
+			"cells": [
+				{
+					"content": "image",
+					"content_binding": "icon",
+					"col": 0,
+					"row": 0
+				},
+				{
+					"content": "text",
+					"content_binding": "type",
+					"col": 1,
+					"row": 0,
+					"style": {
+						"font": {
+							"size": 11,
+							"family": "Tahoma",
+							"weight": "bold",
+							"color": "#000000"
+						}
+					}
+				},
+				{
+					"content": "text",
+					"content_binding": "name",
+					"col": 1,
+					"row": 1,
+					"style": {
+						"font": {
+							"size": 11,
+							"family": "Tahoma",
+							"weight": "normal",
+							"color": "#000000"
+						}
+					}
+				}]
+		}
+	}
+}</template_definition>
+  <name>ItemType_View Card</name>
+ </Item>
+</AML>

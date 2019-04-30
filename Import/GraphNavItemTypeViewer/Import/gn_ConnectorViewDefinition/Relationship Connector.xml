@@ -1,0 +1,12 @@
+﻿<AML>
+ <Item type="gn_ConnectorViewDefinition" id="93CF42593C724C8B98CD1B1390BF6BCC" action="add">
+  <name>Relationship Connector</name>
+  <Relationships>
+   <Item type="gn_ConnectorViewTemplate" id="522548F4EEA04BCB9066437D0C70F07E" action="add">
+    <related_id keyed_name="ItemType Relationship Connector Card" type="gn_ViewCard">346EE1C6DC624CDDABB732A4A1ED97FA</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Relationship Connector" type="gn_ConnectorViewDefinition">93CF42593C724C8B98CD1B1390BF6BCC</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

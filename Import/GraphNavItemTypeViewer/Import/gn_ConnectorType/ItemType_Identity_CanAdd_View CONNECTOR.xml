@@ -1,0 +1,13 @@
+﻿<AML>
+ <Item type="gn_ConnectorType" id="619B88D61DEE43C19F78553DCA2F254F" action="add">
+  <name>ItemType_Identity_CanAdd_View CONNECTOR</name>
+  <Relationships>
+   <Item type="gn_ConnectorTypeProperty" id="5F38D00C11104DC480D3700F9350AB9D" action="add">
+    <name>type</name>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="ItemType_Identity_CanAdd_View CONNECTOR" type="gn_ConnectorType">619B88D61DEE43C19F78553DCA2F254F</source_id>
+    <value_template>{@type}</value_template>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

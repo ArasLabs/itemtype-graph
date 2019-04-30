@@ -1,0 +1,12 @@
+﻿<AML>
+ <Item type="gn_ConnectorViewDefinition" id="514FF6F8669140E4BD5CD386BBC634C2" action="add">
+  <name>TOCAccess Connector</name>
+  <Relationships>
+   <Item type="gn_ConnectorViewTemplate" id="1D4845E86EE444F1B76AEB29BFF60532" action="add">
+    <related_id keyed_name="ItemType Relationship Generic Type Card" type="gn_ViewCard">3E51CAC6171842B5B4A484A4E33CE5A1</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="TOCAccess Connector" type="gn_ConnectorViewDefinition">514FF6F8669140E4BD5CD386BBC634C2</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>
