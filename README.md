@@ -1,4 +1,4 @@
-# Project Name
+# ItemType Viewer Graph
 
 This package contains a Graph View Definition that visually displays the configuration of any ItemType. 
 
@@ -13,12 +13,14 @@ Once installed, an administrator can display a graph view from any ItemType to s
 
 Release | Notes
 --------|--------
+[v1.0.1](https://github.com/ArasLabs/itemtype-graph/releases/tag/v1.0.1) | Fix readme.
 [v1.0.0](https://github.com/ArasLabs/itemtype-graph/releases/tag/v1.0.0) | Initial release.
 
 #### Supported Aras Versions
 
 Project | Aras
 --------|------
+[v1.0.1](https://github.com/ArasLabs/itemtype-graph/releases/tag/v1.0.1) | Aras 11.0 SP15
 [v1.0.0](https://github.com/ArasLabs/itemtype-graph/releases/tag/v1.0.0) | Aras 11.0 SP15
 
 
